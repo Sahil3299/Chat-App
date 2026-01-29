@@ -1,0 +1,21 @@
+.presence-indicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-color);
+}
+
+.presence-online {
+  background: var(--success-color);
+}
+
+.presence-away {
+  background: #f5a623;
+}
+
+.presence-offline {
+  background: #999;
+}

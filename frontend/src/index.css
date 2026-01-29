@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #0084ff;
+  --secondary-color: #e4e6eb;
+  --text-color: #050505;
+  --text-secondary: #65676b;
+  --bg-color: #ffffff;
+  --bg-secondary: #f0f2f5;
+  --border-color: #ddd;
+  --success-color: #42b72a;
+  --error-color: #f02849;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

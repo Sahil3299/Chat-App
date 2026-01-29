@@ -1,0 +1,16 @@
+2026-01-29T11:15:57.544Z [32minfo[39m: 🚀 Server running on port 5000
+2026-01-29T11:15:57.546Z [32minfo[39m: 📡 Socket.IO initialized
+2026-01-29T11:15:57.574Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-01-29T11:21:51.010Z [32minfo[39m: 🚀 Server running on port 5000
+2026-01-29T11:21:51.012Z [32minfo[39m: 📡 Socket.IO initialized
+2026-01-29T11:21:51.022Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-01-29T11:23:16.465Z [32minfo[39m: ✅ User connected: sahil (Lrb63O0Pbd4m9FrTAAAB)
+2026-01-29T11:23:16.482Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-01-29T11:23:16.498Z [32minfo[39m: User sahil is now online
+2026-01-29T11:23:34.567Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by sahil
+2026-01-29T11:23:59.764Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by sahil
+2026-01-29T11:25:01.980Z [32minfo[39m: 🚀 Server running on port 5000
+2026-01-29T11:25:01.983Z [32minfo[39m: 📡 Socket.IO initialized
+2026-01-29T11:25:02.014Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-01-29T11:25:02.323Z [32minfo[39m: ✅ User connected: sahil (JM68mswfLqLJNZnFAAAB)
+2026-01-29T11:25:02.349Z [32minfo[39m: User sahil is now online
