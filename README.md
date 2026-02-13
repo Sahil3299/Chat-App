@@ -20,7 +20,6 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 - [Socket Events](#socket-events)
 - [Database Models](#database-models)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ## 📖 Overview
 
