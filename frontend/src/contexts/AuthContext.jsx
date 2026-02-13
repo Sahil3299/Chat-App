@@ -1,8 +1,9 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
-const AuthContext = createContext();
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
+const AuthContext = createContext();
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {
@@ -17,17 +18,32 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (token) {
-      // Verify token and get user info
-      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-    }
-    setLoading(false);
+    const fetchUser = async () => {
+      if (!token) {
+        setLoading(false);
+        return;
+      }
+      try {
+        axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+        const response = await axios.get(`${API_URL}/api/auth/me`);
+        setUser(response.data);
+      } catch (error) {
+        console.error('Auth verification failed:', error);
+        setToken(null);
+        setUser(null);
+        localStorage.removeItem('token');
+        delete axios.defaults.headers.common['Authorization'];
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchUser();
   }, [token]);
 
   const login = async (email, password) => {
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/api/auth/login`,
+        `${API_URL}/api/auth/login`,
         { email, password }
       );
       
@@ -50,7 +66,7 @@ export const AuthProvider = ({ children }) => {
   const register = async (username, email, password) => {
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/api/auth/register`,
+        `${API_URL}/api/auth/register`,
         { username, email, password }
       );
       

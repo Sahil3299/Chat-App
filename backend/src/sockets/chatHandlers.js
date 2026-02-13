@@ -8,14 +8,19 @@ export const setupChatHandlers = (io, socket) => {
   socket.on('join:room', async ({ roomId }) => {
     try {
       const room = await Room.findById(roomId);
-      
+
       if (!room) {
         return socket.emit('error', { message: 'Room not found' });
       }
-      
-      // Check if user is participant
+
+      // Check if user is participant, if not and room is public, add them
       if (!room.participants.includes(socket.userId)) {
-        return socket.emit('error', { message: 'Not authorized to join this room' });
+        if (room.type === 'public') {
+          room.participants.push(socket.userId);
+          await room.save();
+        } else {
+          return socket.emit('error', { message: 'Not authorized to join this room' });
+        }
       }
       
       socket.join(roomId);
@@ -67,7 +72,7 @@ export const setupChatHandlers = (io, socket) => {
         return socket.emit('error', { message: 'Invalid message data' });
       }
       
-      // Create message
+      // Create message (store in database)
       const message = await Message.create({
         room: roomId,
         sender: socket.userId,
@@ -75,7 +80,7 @@ export const setupChatHandlers = (io, socket) => {
         type
       });
       
-      // Populate sender info
+      // Populate sender info for display
       await message.populate('sender', 'username avatar');
       
       // Update room's last message
@@ -107,7 +112,8 @@ export const setupChatHandlers = (io, socket) => {
   
   socket.on('typing:stop', ({ roomId }) => {
     socket.to(roomId).emit('user:stop-typing', {
-      userId: socket.userId
+      userId: socket.userId,
+      username: socket.username
     });
   });
   

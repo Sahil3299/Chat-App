@@ -34,7 +34,8 @@ const MessageList = ({ messages }) => {
           );
         }
 
-        const isOwnMessage = message.sender._id === user._id;
+        const senderId = message.sender?._id || message.sender;
+        const isOwnMessage = user && String(senderId) === String(user._id);
 
         return (
           <div
@@ -43,8 +44,8 @@ const MessageList = ({ messages }) => {
           >
             {!isOwnMessage && (
               <img
-                src={message.sender.avatar}
-                alt={message.sender.username}
+                src={message.sender?.avatar || `https://ui-avatars.com/api/?name=${message.sender?.username || 'User'}`}
+                alt={message.sender?.username || 'User'}
                 className="message-avatar"
               />
             )}
@@ -52,7 +53,7 @@ const MessageList = ({ messages }) => {
             <div className="message-content">
               {!isOwnMessage && (
                 <div className="message-sender">
-                  {message.sender.username}
+                  {message.sender?.username || 'Unknown'}
                 </div>
               )}
               

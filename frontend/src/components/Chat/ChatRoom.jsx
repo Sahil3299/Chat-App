@@ -52,10 +52,10 @@ const ChatRoom = ({ roomId }) => {
       setTypingUsers(prev => new Set([...prev, username]));
     });
 
-    socket.on('user:stop-typing', ({ userId }) => {
+    socket.on('user:stop-typing', ({ username }) => {
       setTypingUsers(prev => {
         const newSet = new Set(prev);
-        // Remove by userId logic here
+        if (username) newSet.delete(username);
         return newSet;
       });
     });

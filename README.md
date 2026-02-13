@@ -1,5 +1,6 @@
 # 💬 Chat Application
 
+<<<<<<< HEAD
 <p align="center">
   <a href="https://github.com/sahil3299/chat-app/stargazers">
     <img src="https://img.shields.io/github/stars/sahil3299/chat-app?style=flat-square" alt="GitHub stars">
@@ -48,6 +49,16 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 ## 📋 Table of Contents
 
 - [Screenshots](#-screenshots)
+=======
+A full-stack real-time chat application built with the MERN stack (MongoDB, Express, React, Node.js) featuring Socket.IO for live messaging, user authentication, and presence indicators.
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-green.svg)
+
+## 📋 Table of Contents
+
+>>>>>>> 293bc4b (add readme file)
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
