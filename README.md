@@ -36,7 +36,7 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 *Main chat interface with real-time messaging and user list*
 
 ### 👥 User Presence
-![User Presence](https://via.placeholder.com/800x500?text=User+Presence+Indicators)
+![User Presence](Screenshots/Userlist.png)
 *Online/offline status indicators for all users*
 
 </div>
