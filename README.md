@@ -1,13 +1,53 @@
 # 💬 Chat Application
 
+<p align="center">
+  <a href="https://github.com/sahil3299/chat-app/stargazers">
+    <img src="https://img.shields.io/github/stars/yourusername/chat-app?style=flat-square" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/sahil3299/chat-app/network">
+    <img src="https://img.shields.io/github/forks/yourusername/chat-app?style=flat-square" alt="GitHub forks">
+  </a>
+  <a href="https://github.com/sahil3299/chat-app/issues">
+    <img src="https://img.shields.io/github/issues/yourusername/chat-app?style=flat-square" alt="GitHub issues">
+  </a>
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  <img src="https://img.shields.io/badge/Node.js-18%2B-green.svg" alt="Node.js">
+  <img src="https://img.shields.io/badge/MongoDB-6.0%2B-green.svg" alt="MongoDB">
+</p>
+
 A full-stack real-time chat application built with the MERN stack (MongoDB, Express, React, Node.js) featuring Socket.IO for live messaging, user authentication, and presence indicators.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)
-![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-green.svg)
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+### 🔐 Login Page
+![Login Page](https://via.placeholder.com/800x500?text=Login+Page+Screenshot)
+*The secure authentication interface with email and password login*
+
+### 📝 Registration Page
+![Register Page](https://via.placeholder.com/800x500?text=Registration+Page+Screenshot)
+*User registration with username, email, and password*
+
+### 💬 Chat Room
+![Chat Room](https://via.placeholder.com/800x500?text=Chat+Room+Screenshot)
+*Main chat interface with real-time messaging and user list*
+
+### 👥 User Presence
+![User Presence](https://via.placeholder.com/800x500?text=User+Presence+Indicators)
+*Online/offline status indicators for all users*
+
+</div>
+
+---
+
+> 📌 **Note:** Replace the placeholder images above with actual screenshots of your application for a better showcase.
 
 ## 📋 Table of Contents
 
+- [Screenshots](#-screenshots)
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
@@ -20,6 +60,7 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 - [Socket Events](#socket-events)
 - [Database Models](#database-models)
 - [Troubleshooting](#troubleshooting)
+- [License](#license)
 
 ## 📖 Overview
 
