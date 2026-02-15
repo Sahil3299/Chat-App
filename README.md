@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="https://github.com/sahil3299/chat-app/stargazers">
-    <img src="https://img.shields.io/github/stars/yourusername/chat-app?style=flat-square" alt="GitHub stars">
+    <img src="https://img.shields.io/github/stars/sahil3299/chat-app?style=flat-square" alt="GitHub stars">
   </a>
   <a href="https://github.com/sahil3299/chat-app/network">
-    <img src="https://img.shields.io/github/forks/yourusername/chat-app?style=flat-square" alt="GitHub forks">
+    <img src="https://img.shields.io/github/forks/sahil3299/chat-app?style=flat-square" alt="GitHub forks">
   </a>
   <a href="https://github.com/sahil3299/chat-app/issues">
-    <img src="https://img.shields.io/github/issues/yourusername/chat-app?style=flat-square" alt="GitHub issues">
+    <img src="https://img.shields.io/github/issues/sahil3299/chat-app?style=flat-square" alt="GitHub issues">
   </a>
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Node.js-18%2B-green.svg" alt="Node.js">
@@ -24,15 +24,15 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 <div align="center">
 
 ### 🔐 Login Page
-![Login Page](https://via.placeholder.com/800x500?text=Login+Page+Screenshot)
+![Login Page](Screenshots/login.png)
 *The secure authentication interface with email and password login*
 
 ### 📝 Registration Page
-![Register Page](https://via.placeholder.com/800x500?text=Registration+Page+Screenshot)
+![Register Page](Screenshots/register.png)
 *User registration with username, email, and password*
 
 ### 💬 Chat Room
-![Chat Room](https://via.placeholder.com/800x500?text=Chat+Room+Screenshot)
+![Chat Room](Screenshots/ChatRoom.png)
 *Main chat interface with real-time messaging and user list*
 
 ### 👥 User Presence
