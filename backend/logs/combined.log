@@ -131,3 +131,121 @@
 2026-02-12T17:12:27.475Z [32minfo[39m: 📡 Socket.IO initialized
 2026-02-12T17:12:27.530Z [32minfo[39m: ✅ User connected: jass (on_ePvJjIvnymFqNAAAB)
 2026-02-12T17:12:27.578Z [32minfo[39m: User jass is now online
+2026-02-13T16:01:23.141Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-02-13T16:01:23.184Z [32minfo[39m: 🚀 Server running on port 5000
+2026-02-13T16:01:23.184Z [32minfo[39m: 📡 Socket.IO initialized
+2026-02-13T16:01:37.543Z [32minfo[39m: ✅ User connected: jass (n8935x-bYwdFP6omAAAC)
+2026-02-13T16:01:37.591Z [32minfo[39m: User jass is now online
+2026-02-13T16:01:37.627Z [32minfo[39m: User jass joined room 507f1f77bcf86cd799439011
+2026-02-13T16:01:47.921Z [32minfo[39m: User jass left room 507f1f77bcf86cd799439011
+2026-02-13T16:01:47.925Z [32minfo[39m: ❌ User disconnected: jass - Reason: client namespace disconnect
+2026-02-13T16:01:50.480Z [32minfo[39m: ✅ User connected: sahil (ZhUtoCeIvQOM2Mm0AAAE)
+2026-02-13T16:01:50.504Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-02-13T16:01:50.527Z [32minfo[39m: User sahil is now online
+2026-02-13T16:01:50.533Z [32minfo[39m: ✅ User connected: sahil (Zol8-y51gy-XgDafAAAG)
+2026-02-13T16:01:50.542Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:01:50.553Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-13T16:01:50.567Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:01:50.590Z [32minfo[39m: User sahil is now online
+2026-02-13T16:01:50.594Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:02:26.100Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by sahil
+2026-02-13T16:02:33.228Z [32minfo[39m: ❌ User disconnected: sahil - Reason: transport close
+2026-02-13T16:02:33.308Z [32minfo[39m: ✅ User connected: sahil (qPrOboy63DPeq1zDAAAI)
+2026-02-13T16:02:33.311Z [32minfo[39m: ❌ User disconnected: sahil - Reason: transport close
+2026-02-13T16:02:33.324Z [32minfo[39m: ✅ User connected: sahil (oBiboJnrzQoED_YSAAAK)
+2026-02-13T16:02:33.342Z [32minfo[39m: User sahil is now online
+2026-02-13T16:02:33.353Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:03:17.827Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-02-13T16:03:17.829Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-13T16:03:33.669Z [32minfo[39m: ✅ User connected: jass (iC3_cnjmsl3FQtj1AAAM)
+2026-02-13T16:03:33.679Z [32minfo[39m: User jass left room 507f1f77bcf86cd799439011
+2026-02-13T16:03:33.692Z [32minfo[39m: ❌ User disconnected: jass - Reason: client namespace disconnect
+2026-02-13T16:03:33.701Z [32minfo[39m: User jass is now online
+2026-02-13T16:03:33.708Z [32minfo[39m: ✅ User connected: jass (EKdqgyCvSttD9xpcAAAO)
+2026-02-13T16:03:33.711Z [32minfo[39m: User jass joined room 507f1f77bcf86cd799439011
+2026-02-13T16:03:33.722Z [32minfo[39m: User jass joined room 507f1f77bcf86cd799439011
+2026-02-13T16:03:33.742Z [32minfo[39m: User jass is now online
+2026-02-13T16:03:33.748Z [32minfo[39m: User jass joined room 507f1f77bcf86cd799439011
+2026-02-13T16:04:19.036Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by jass
+2026-02-13T16:04:24.706Z [32minfo[39m: User jass left room 507f1f77bcf86cd799439011
+2026-02-13T16:04:24.710Z [32minfo[39m: ❌ User disconnected: jass - Reason: client namespace disconnect
+2026-02-13T16:04:27.805Z [32minfo[39m: ✅ User connected: sahil (Yx7Gn4RDB0HIyptNAAAQ)
+2026-02-13T16:04:27.831Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:04:27.836Z [32minfo[39m: ✅ User connected: sahil (uNpNYl-Dd8dG7RNHAAAS)
+2026-02-13T16:04:27.846Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-13T16:04:27.862Z [32minfo[39m: User sahil is now online
+2026-02-13T16:04:27.868Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:06:09.876Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by sahil
+2026-02-13T16:06:38.693Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-02-13T16:06:38.696Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-13T16:16:03.692Z [32minfo[39m: ✅ User connected: sahil (5XAZAGqwHD6weQ9BAAAU)
+2026-02-13T16:16:03.712Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-02-13T16:16:03.729Z [32minfo[39m: User sahil is now online
+2026-02-13T16:16:03.736Z [32minfo[39m: ✅ User connected: sahil (r-6wnEoatagw2vzPAAAW)
+2026-02-13T16:16:03.742Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:16:03.747Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-13T16:16:03.757Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:16:03.769Z [32minfo[39m: User sahil is now online
+2026-02-13T16:16:03.776Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-13T16:16:06.304Z [32minfo[39m: ❌ User disconnected: sahil - Reason: transport close
+2026-02-15T08:30:59.284Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-02-15T08:30:59.338Z [32minfo[39m: 🚀 Server running on port 5000
+2026-02-15T08:30:59.339Z [32minfo[39m: 📡 Socket.IO initialized
+2026-02-15T08:31:14.065Z [32minfo[39m: ✅ User connected: sahil (y0HiV7xnPIBShOdbAAAC)
+2026-02-15T08:31:14.125Z [32minfo[39m: User sahil is now online
+2026-02-15T08:31:14.178Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-15T08:31:20.283Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-02-15T08:31:20.288Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-15T08:32:59.251Z [32minfo[39m: ✅ User connected: sahil (ttkcrJgCiyPj2nxfAAAE)
+2026-02-15T08:32:59.284Z [32minfo[39m: User sahil is now online
+2026-02-15T08:32:59.292Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-15T08:32:59.301Z [32minfo[39m: ✅ User connected: sahil (DyfAfvi_8KnQpDx0AAAG)
+2026-02-15T08:32:59.323Z [32minfo[39m: User sahil is now online
+2026-02-15T08:32:59.334Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-15T08:34:13.297Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-02-15T08:34:13.299Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-02-15T08:35:21.452Z [32minfo[39m: ✅ User connected: darshan (nWlWAOB2ai0h8bCyAAAI)
+2026-02-15T08:35:21.457Z [32minfo[39m: ❌ User disconnected: darshan - Reason: transport close
+2026-02-15T08:35:21.476Z [32minfo[39m: ✅ User connected: darshan (Dt3pmResGIk0c9yKAAAK)
+2026-02-15T08:35:21.501Z [32minfo[39m: User darshan is now online
+2026-02-15T08:35:21.518Z [32minfo[39m: User darshan joined room 507f1f77bcf86cd799439011
+2026-02-15T08:35:56.811Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by darshan
+2026-02-15T08:52:46.099Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-02-15T08:52:46.144Z [32minfo[39m: 🚀 Server running on port 5000
+2026-02-15T08:52:46.145Z [32minfo[39m: 📡 Socket.IO initialized
+2026-02-15T08:52:46.203Z [32minfo[39m: User darshan status set to online
+2026-02-15T08:52:46.205Z [32minfo[39m: ✅ User connected: darshan (6nape_P7k-NNfk30AAAB)
+2026-02-15T08:52:46.214Z [32minfo[39m: User darshan is now online
+2026-02-15T08:52:54.286Z [32minfo[39m: ❌ User disconnected: darshan - Reason: transport close
+2026-02-15T08:52:54.589Z [32minfo[39m: User darshan status set to online
+2026-02-15T08:52:54.590Z [32minfo[39m: ✅ User connected: darshan (uLS3alrwMqyrwCkuAAAD)
+2026-02-15T08:52:54.615Z [32minfo[39m: User darshan is now online
+2026-02-15T08:52:54.667Z [32minfo[39m: User darshan joined room 507f1f77bcf86cd799439011
+2026-02-15T10:28:15.298Z [32minfo[39m: ❌ User disconnected: darshan - Reason: transport close
+2026-02-21T06:17:30.765Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-02-21T06:17:30.811Z [32minfo[39m: 🚀 Server running on port 5000
+2026-02-21T06:17:30.811Z [32minfo[39m: 📡 Socket.IO initialized
+2026-02-21T06:18:01.254Z [32minfo[39m: User sahil status set to online
+2026-02-21T06:18:01.260Z [32minfo[39m: User sahil status set to online
+2026-02-21T06:18:01.263Z [32minfo[39m: ✅ User connected: sahil (0ThrzDXgQ3GjJQm8AAAD)
+2026-02-21T06:18:01.294Z [32minfo[39m: User sahil is now online
+2026-02-21T06:18:01.329Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-02-21T06:18:11.673Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by sahil
+2026-02-21T06:18:20.687Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by sahil
+2026-02-21T06:19:12.076Z [32minfo[39m: User sahil left room 507f1f77bcf86cd799439011
+2026-02-21T06:19:12.079Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-03-01T14:25:57.406Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-03-01T14:25:57.455Z [32minfo[39m: 🚀 Server running on port 5000
+2026-03-01T14:25:57.455Z [32minfo[39m: 📡 Socket.IO initialized
+2026-03-01T14:31:42.150Z [32minfo[39m: User jay status set to online
+2026-03-01T14:31:42.154Z [32minfo[39m: ✅ User connected: jay (8pd-qG3OJcuWFEiQAAAB)
+2026-03-01T14:31:42.166Z [32minfo[39m: User jay left room 507f1f77bcf86cd799439011
+2026-03-01T14:31:42.184Z [32minfo[39m: ❌ User disconnected: jay - Reason: client namespace disconnect
+2026-03-01T14:31:42.195Z [32minfo[39m: User jay is now online
+2026-03-01T14:31:42.257Z [32minfo[39m: User jay status set to online
+2026-03-01T14:31:42.260Z [32minfo[39m: ✅ User connected: jay (kyLwuoyuKsy02T0SAAAD)
+2026-03-01T14:31:42.318Z [32minfo[39m: User jay joined room 507f1f77bcf86cd799439011
+2026-03-01T14:31:42.321Z [32minfo[39m: User jay joined room 507f1f77bcf86cd799439011
+2026-03-01T14:31:42.341Z [32minfo[39m: User jay is now online
+2026-03-01T14:31:42.351Z [32minfo[39m: User jay joined room 507f1f77bcf86cd799439011
+2026-03-01T14:33:08.638Z [32minfo[39m: ❌ User disconnected: jay - Reason: transport close

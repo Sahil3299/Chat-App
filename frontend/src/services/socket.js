@@ -6,7 +6,7 @@ class SocketService {
   }
 
   connect(token) {
-    this.socket = io(import.meta.env.VITE_API_URL || 'http://localhost:5000', {
+    this.socket = io(import.meta.env.VITE_API_URL || 'https://chat-app-eu86.onrender.com', {
       auth: { token },
       autoConnect: true,
       reconnection: true,

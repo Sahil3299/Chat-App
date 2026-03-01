@@ -1,5 +1,6 @@
 import { Server } from 'socket.io';
 import jwt from 'jsonwebtoken';
+import User from '../models/User.js';
 import { setupChatHandlers } from '../sockets/chatHandlers.js';
 import { setupPresenceHandlers } from '../sockets/presenceHandlers.js';
 import logger from '../utils/logger.js';
@@ -16,7 +17,7 @@ export const initializeSocket = (httpServer) => {
   });
 
   // Authentication middleware
-  io.use((socket, next) => {
+  io.use(async (socket, next) => {
     try {
       const token = socket.handshake.auth.token;
       
@@ -27,6 +28,22 @@ export const initializeSocket = (httpServer) => {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
       socket.userId = decoded.userId;
       socket.username = decoded.username;
+      
+      // Set user status to online when connecting
+      await User.findByIdAndUpdate(socket.userId, {
+        status: 'online',
+        socketId: socket.id,
+        lastSeen: new Date()
+      });
+      
+      // Broadcast user status change to all clients
+      io.emit('user:status-change', {
+        userId: socket.userId,
+        status: 'online',
+        timestamp: new Date()
+      });
+      
+      logger.info(`User ${socket.username} status set to online`);
       
       next();
     } catch (error) {
@@ -42,6 +59,11 @@ export const initializeSocket = (httpServer) => {
     // Setup event handlers
     setupChatHandlers(io, socket);
     setupPresenceHandlers(io, socket);
+    
+    // Emit online users list to the newly connected user
+    socket.emit('presence:online-users', { 
+      users: [] // Will be populated by the presence:get-online handler
+    });
     
     // Disconnect handling
     socket.on('disconnect', (reason) => {

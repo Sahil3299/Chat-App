@@ -65,6 +65,29 @@ const ChatRoom = ({ roomId }) => {
       setOnlineUsers(users);
     });
 
+    // Listen for user status changes (real-time updates)
+    socket.on('user:status-change', ({ userId, status }) => {
+      setOnlineUsers(prev => {
+        if (status === 'offline') {
+          // Remove user from online list
+          return prev.filter(user => user._id !== userId);
+        } else {
+          // Check if user is already in the list
+          const existingUser = prev.find(user => user._id === userId);
+          if (existingUser) {
+            // Update existing user's status
+            return prev.map(user => 
+              user._id === userId ? { ...user, status } : user
+            );
+          } else if (status === 'online' || status === 'away') {
+            // Add new user to online list (will be fetched properly)
+            return prev;
+          }
+          return prev;
+        }
+      });
+    });
+
     // Get online users
     socket.emit('presence:get-online');
 
@@ -78,6 +101,7 @@ const ChatRoom = ({ roomId }) => {
       socket.off('user:typing');
       socket.off('user:stop-typing');
       socket.off('presence:online-users');
+      socket.off('user:status-change');
     };
   }, [socket, roomId]);
 
