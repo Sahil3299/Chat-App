@@ -19,7 +19,10 @@ const httpServer = createServer(app);
 
 // Middleware
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'https://chat-app-blue-ten-38.vercel.app/',
+  origin: [
+    'https://your-app.vercel.app',
+    'http://localhost:5173'
+  ],
   credentials: true
 }));
 app.use(express.json());
