@@ -1,7 +1,4 @@
 # 💬 Chat Application
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 <p align="center">
   <a href="https://github.com/sahil3299/chat-app/stargazers">
     <img src="https://img.shields.io/github/stars/sahil3299/chat-app?style=flat-square" alt="GitHub stars">
@@ -21,7 +18,6 @@
   </a>
   <a href="https://github.com/yourusername/chat-app/issues">
     <img src="https://img.shields.io/github/issues/yourusername/chat-app?style=flat-square" alt="GitHub issues">
->>>>>>> b5825b9 (Deployment)
   </a>
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Node.js-18%2B-green.svg" alt="Node.js">
@@ -57,8 +53,6 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 
 ---
 
-> 📌 **Note:** Replace the placeholder images above with actual screenshots of your application for a better showcase.
-
 ## 📋 Table of Contents
 
 - [Screenshots](#-screenshots)
@@ -91,14 +85,10 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 
 </div>
 
----
-
-> 📌 **Note:** Replace the placeholder images above with actual screenshots of your application for a better showcase.
+-
 
 ## 📋 Table of Contents
 
-<<<<<<< HEAD
->>>>>>> 293bc4b (add readme file)
 =======
 - [Screenshots](#-screenshots)
 >>>>>>> b5825b9 (Deployment)
