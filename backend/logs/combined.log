@@ -249,3 +249,29 @@
 2026-03-01T14:31:42.341Z [32minfo[39m: User jay is now online
 2026-03-01T14:31:42.351Z [32minfo[39m: User jay joined room 507f1f77bcf86cd799439011
 2026-03-01T14:33:08.638Z [32minfo[39m: ❌ User disconnected: jay - Reason: transport close
+2026-03-03T08:54:45.539Z [32minfo[39m: ✅ MongoDB Connected: localhost
+2026-03-03T08:54:45.584Z [32minfo[39m: 🚀 Server running on port 5000
+2026-03-03T08:54:45.585Z [32minfo[39m: 📡 Socket.IO initialized
+2026-03-03T08:55:20.419Z [32minfo[39m: User jay status set to online
+2026-03-03T08:55:20.437Z [32minfo[39m: User jay status set to online
+2026-03-03T08:55:20.438Z [32minfo[39m: ✅ User connected: jay (Jpj-gYEgfy8JtqFxAAAD)
+2026-03-03T08:55:20.455Z [32minfo[39m: User jay is now online
+2026-03-03T08:55:20.486Z [32minfo[39m: User jay joined room 507f1f77bcf86cd799439011
+2026-03-03T08:55:31.011Z [32minfo[39m: User jay status set to online
+2026-03-03T08:55:31.024Z [32minfo[39m: User jay status set to online
+2026-03-03T08:55:31.025Z [32minfo[39m: ✅ User connected: jay (q6heID3JEbjddWs2AAAH)
+2026-03-03T08:55:31.047Z [32minfo[39m: User jay is now online
+2026-03-03T08:55:31.065Z [32minfo[39m: User jay joined room 507f1f77bcf86cd799439011
+2026-03-03T08:55:37.850Z [32minfo[39m: User jay left room 507f1f77bcf86cd799439011
+2026-03-03T08:55:37.854Z [32minfo[39m: ❌ User disconnected: jay - Reason: client namespace disconnect
+2026-03-03T08:55:49.993Z [32minfo[39m: User sahil status set to online
+2026-03-03T08:55:49.995Z [32minfo[39m: ✅ User connected: sahil (KkEZ0lWwIOXJxQm1AAAJ)
+2026-03-03T08:55:50.009Z [32minfo[39m: ❌ User disconnected: sahil - Reason: client namespace disconnect
+2026-03-03T08:55:50.034Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-03-03T08:55:50.039Z [32minfo[39m: User sahil status set to online
+2026-03-03T08:55:50.040Z [32minfo[39m: ✅ User connected: sahil (Dnex12c9sWtIySHNAAAL)
+2026-03-03T08:55:50.065Z [32minfo[39m: User sahil is now online
+2026-03-03T08:55:50.074Z [32minfo[39m: User sahil joined room 507f1f77bcf86cd799439011
+2026-03-03T08:56:19.560Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by sahil
+2026-03-03T08:56:26.585Z [32minfo[39m: Message sent in room 507f1f77bcf86cd799439011 by jay
+2026-03-03T08:56:54.666Z [32minfo[39m: ❌ User disconnected: jay - Reason: transport close
