@@ -5,45 +5,41 @@ import { SocketProvider } from './contexts/SocketContext';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
 import ChatRoom from './components/Chat/ChatRoom';
-import Navbar from './components/Common/Navbar';
-import './App.css';
 
 const ProtectedRoute = ({ children }) => {
   const { token, loading } = useAuth();
 
   if (loading) {
-    return <div className="loading">Loading...</div>;
+    return (
+      <div className="h-screen w-screen flex items-center justify-center bg-zinc-950">
+        <div className="text-zinc-100">Loading...</div>
+      </div>
+    );
   }
 
   return token ? children : <Navigate to="/login" />;
 };
 
 const App = () => {
-  // Default room ID - in production, you'd have room selection
   const defaultRoomId = '507f1f77bcf86cd799439011';
 
   return (
     <BrowserRouter>
       <AuthProvider>
         <SocketProvider>
-          <div className="app">
-            <Routes>
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
-              <Route
-                path="/chat"
-                element={
-                  <ProtectedRoute>
-                    <>
-                      <Navbar />
-                      <ChatRoom roomId={defaultRoomId} />
-                    </>
-                  </ProtectedRoute>
-                }
-              />
-              <Route path="/" element={<Navigate to="/chat" />} />
-            </Routes>
-          </div>
+          <Routes>
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route
+              path="/chat"
+              element={
+                <ProtectedRoute>
+                  <ChatRoom roomId={defaultRoomId} />
+                </ProtectedRoute>
+              }
+            />
+            <Route path="/" element={<Navigate to="/chat" />} />
+          </Routes>
         </SocketProvider>
       </AuthProvider>
     </BrowserRouter>

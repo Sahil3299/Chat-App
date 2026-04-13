@@ -1,34 +1,38 @@
 import React from 'react';
 import PresenceIndicator from '../Common/PresenceIndicator';
-import './UserList.css';
 
 const UserList = ({ users }) => {
   return (
-    <div className="user-list">
-      <div className="user-list-header">
-        <h3>Online Users ({users.length})</h3>
+    <div className="w-72 bg-zinc-900 border-l border-zinc-800 flex flex-col">
+      <div className="p-4 border-b border-zinc-800">
+        <h3 className="text-white font-semibold">Online Users ({users.length})</h3>
       </div>
-      
-      <div className="user-list-content">
+
+      <div className="flex-1 overflow-y-auto p-2 space-y-1">
         {users.length === 0 ? (
-          <div className="no-users">No users online</div>
+          <div className="p-4 text-center text-zinc-500 text-sm">No users online</div>
         ) : (
           users.map((user) => (
-            <div key={user._id} className="user-item">
-              <div className="user-avatar-container">
-                <img 
-                  src={user.avatar} 
+            <div key={user._id} className="flex items-center gap-3 p-3 rounded-lg hover:bg-zinc-800/60 transition-colors">
+              <div className="relative">
+                <img
+                  src={user.avatar}
                   alt={user.username}
-                  className="user-avatar"
+                  className="w-10 h-10 rounded-full object-cover"
                 />
-                <PresenceIndicator status={user.status} />
+                <div className="absolute bottom-0 right-0">
+                  <PresenceIndicator status={user.status} />
+                </div>
               </div>
-              
-              <div className="user-info">
-                <div className="user-username">{user.username}</div>
-                <div className="user-status">
-                  {user.status === 'online' ? 'Active now' : 
-                   user.status === 'away' ? 'Away' : 'Offline'}
+
+              <div className="flex-1 text-left">
+                <div className="text-white text-sm font-medium line-clamp-1">{user.username}</div>
+                <div className="text-zinc-400 text-xs">
+                  {user.status === 'online'
+                    ? 'Active now'
+                    : user.status === 'away'
+                    ? 'Away'
+                    : 'Offline'}
                 </div>
               </div>
             </div>
